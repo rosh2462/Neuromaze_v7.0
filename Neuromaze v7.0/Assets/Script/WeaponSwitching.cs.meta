@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: e4614ba108aee0943ba89c31db94cbd9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - weaponSwitchSoundClip: {fileID: 8300000, guid: 8f37ade73a091a24080396bb7984d144, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
