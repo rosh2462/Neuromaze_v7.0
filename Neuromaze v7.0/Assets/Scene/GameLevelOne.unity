@@ -28442,7 +28442,6 @@ GameObject:
   - component: {fileID: 8529174170276841653}
   - component: {fileID: 8529174170276841655}
   - component: {fileID: 8529174170276841656}
-  - component: {fileID: 8529174170276841657}
   m_Layer: 7
   m_Name: FirstMonster
   m_TagString: Monster
@@ -29948,20 +29947,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8529174170276841657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6132333999809302545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a17a266f652cf854197bb17263b8bf5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 4628188158628967633}
-  moveSpeed: 3
 --- !u!1 &8623510045263081962
 GameObject:
   m_ObjectHideFlags: 0
