@@ -1,2 +1,2 @@
 # Neuromaze_v7.0
-70
+Version 7.0
