@@ -5856,14 +5856,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144540309}
-  m_LocalRotation: {x: -0.05556961, y: 0.68625116, z: -0.15906882, w: -0.70757926}
-  m_LocalPosition: {x: 0.091, y: 0.203, z: 0.641}
+  m_LocalRotation: {x: -0.0963976, y: 0.69086087, z: -0.051577196, w: -0.71467376}
+  m_LocalPosition: {x: 0.115, y: 0.297, z: 0.721}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.54906017}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1079112803}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 17.275, y: 273.11798, z: 8.967}
+  m_LocalEulerAnglesHint: {x: 12.067, y: 271.573, z: -3.487}
 --- !u!23 &144540311
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8289,7 +8289,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &491183499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8304,7 +8304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 919132149105868778}
   spawnInterval: 5
-  spawnNumber: 999
+  spawnNumber: 1
   spawnRotation: {x: 0, y: 0, z: 0}
   particleSystemPrefab: {fileID: 1784795947}
   delayAfterParticleSystem: 2.1
@@ -10694,7 +10694,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.00020027, y: 0.000088692}
-  m_SizeDelta: {x: 40, y: 6}
+  m_SizeDelta: {x: 40, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &856455453
 MonoBehaviour:
@@ -15928,7 +15928,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000053406, y: 0.0000085831}
-  m_SizeDelta: {x: 63.67, y: 9.2715}
+  m_SizeDelta: {x: 65, y: 9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1588907003
 MonoBehaviour:
@@ -16144,7 +16144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640193497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.129625, y: 75.19001, z: 18.527603}
+  m_LocalPosition: {x: 0.12787342, y: 2.6650095, z: -2.9773712}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22980,7 +22980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 8189308873493914828}
   spawnInterval: 5
-  spawnNumber: 4
+  spawnNumber: 1
   spawnRotation: {x: 0, y: 0, z: 0}
   particleSystemPrefab: {fileID: 1784795947}
   delayAfterParticleSystem: 2.1
@@ -24686,8 +24686,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149105868778}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.25, y: -7.89, z: -303.72}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalPosition: {x: 24.644, y: 14.55, z: -295.618}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1640193498}
@@ -26005,7 +26005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3033265036816630539
 Transform:
   m_ObjectHideFlags: 0
@@ -27461,7 +27461,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2705510756219614247}
   m_LocalRotation: {x: -0.70710677, y: -0.00000016858739, z: -0.00000010677015, w: 0.7071068}
-  m_LocalPosition: {x: -8.1653595, y: 1.1099386, z: 21.028366}
+  m_LocalPosition: {x: 0.092139244, y: -71.41506, z: -0.47660828}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27480,8 +27480,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.045, y: 0.06, z: 0.025}
-  m_Center: {x: 0.001, y: 0, z: 0.712}
+  m_Size: {x: 0.045, y: 0.055, z: 0.028}
+  m_Center: {x: 0, y: 0, z: 0.714}
 --- !u!114 &5485691466046901743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28475,7 +28475,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
-  attackDamage: 7
+  attackDamage: 10
 --- !u!1 &6676680742875376733
 GameObject:
   m_ObjectHideFlags: 0
@@ -28759,7 +28759,7 @@ MonoBehaviour:
   - {fileID: 1762658867656381245}
   - {fileID: 1762658867656381245}
   - {fileID: 316545325658147761}
-  dropProbability: 0.7
+  dropProbability: 0.8
   hitSound: {fileID: 8300000, guid: c5f2c75acb55d8b469cdcb86dd182c39, type: 3}
   deathSoundObject: {fileID: 1391474337}
 --- !u!65 &6895956383960513905
@@ -29649,7 +29649,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7036213049517440900}
   m_LocalRotation: {x: -0.70710677, y: -0.00000016858739, z: -0.00000010677015, w: 0.7071068}
-  m_LocalPosition: {x: -8.540001, y: 72.37, z: 20.889969}
+  m_LocalPosition: {x: -0.28250217, y: -0.15499592, z: -0.6150055}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children:
