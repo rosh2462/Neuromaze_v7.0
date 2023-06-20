@@ -266,7 +266,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0181c3e85669b79489b1f5da0012efc0, type: 3}
+    m_Font: {fileID: 12800000, guid: d9fde110be4d45841a0e61154fca9379, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -278,7 +278,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "Chapter II\n\xABHOPE\xBB"
+  m_Text: 'Chapter II: HOPE'
 --- !u!222 &253971910
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -475,7 +475,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1238349888
 RectTransform:
   m_ObjectHideFlags: 0
@@ -551,7 +551,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1449882125
 RectTransform:
   m_ObjectHideFlags: 0

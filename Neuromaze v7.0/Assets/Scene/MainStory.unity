@@ -335,8 +335,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0181c3e85669b79489b1f5da0012efc0, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: d9fde110be4d45841a0e61154fca9379, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -633,8 +633,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0181c3e85669b79489b1f5da0012efc0, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: d9fde110be4d45841a0e61154fca9379, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1027,8 +1027,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0181c3e85669b79489b1f5da0012efc0, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: d9fde110be4d45841a0e61154fca9379, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1248,6 +1248,8 @@ PlayableDirector:
     value: {fileID: 134405693}
   - key: {fileID: -364197615168584482, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
     value: {fileID: 1995921095}
+  - key: {fileID: -621385291114417790, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1847048328
