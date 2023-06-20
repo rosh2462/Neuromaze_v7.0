@@ -133,7 +133,7 @@ public class EnemyHealthSystem : MonoBehaviour
 
     private AudioSource audioSource; // Reference to the AudioSource component
     private EnemyHealthBar healthBar; // Reference to the EnemyHealthBar component
-public Animator animator;
+    public Animator animator;
     private bool isDead = false; // Flag indicating if the enemy is dead
 
     private GameObject droppedObject; // Reference to the dropped object
