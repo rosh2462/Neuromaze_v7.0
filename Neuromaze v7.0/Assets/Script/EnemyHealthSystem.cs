@@ -133,7 +133,7 @@ public class EnemyHealthSystem : MonoBehaviour
 
     private AudioSource audioSource; // Reference to the AudioSource component
     private EnemyHealthBar healthBar; // Reference to the EnemyHealthBar component
-
+public Animator animator;
     private bool isDead = false; // Flag indicating if the enemy is dead
 
     private GameObject droppedObject; // Reference to the dropped object
@@ -162,6 +162,7 @@ public class EnemyHealthSystem : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+    animator.SetTrigger("isDead");
         }
     }
 
@@ -182,6 +183,8 @@ public class EnemyHealthSystem : MonoBehaviour
     {
         isDead = true;
         Debug.Log("Enemy Died!");
+         animator.SetTrigger("isDead");
+   
 
         if (!hasPlayedDeathSound && deathSoundObject != null)
         {
@@ -204,6 +207,7 @@ public class EnemyHealthSystem : MonoBehaviour
             if (dropObject != null)
             {
                 dropObject.SetActive(true);
+                
                 droppedObject = Instantiate(dropObject, transform.position, transform.rotation);
             }
         }
