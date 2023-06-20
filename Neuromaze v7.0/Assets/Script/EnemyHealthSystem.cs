@@ -122,6 +122,7 @@ using UnityEngine;
 
 public class EnemyHealthSystem : MonoBehaviour
 {
+     public Animator animator;
     public int maxHealth = 100;
     [SerializeField] private int currentHealth;
 
@@ -162,6 +163,8 @@ public class EnemyHealthSystem : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+            animator.SetTrigger("isDead");
+            
         }
     }
 
@@ -181,6 +184,7 @@ public class EnemyHealthSystem : MonoBehaviour
     void Die()
     {
         isDead = true;
+
         Debug.Log("Enemy Died!");
 
         if (!hasPlayedDeathSound && deathSoundObject != null)
