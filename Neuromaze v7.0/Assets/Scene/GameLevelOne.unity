@@ -614,7 +614,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -5426,7 +5426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8681377643031911391}
   damageAmount: 14
-  damageInterval: 2
+  damageInterval: 1.5
 --- !u!136 &63652513
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8297,7 +8297,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491183498}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f7b046f530296d41b4c8ccbd795139d, type: 3}
   m_Name: 
@@ -16165,7 +16165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8681377643031911391}
   damageAmount: 7
-  damageInterval: 1
+  damageInterval: 0.5
 --- !u!136 &1640193500
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16837,7 +16837,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -22979,8 +22979,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 8189308873493914828}
-  spawnInterval: 20
-  spawnNumber: 10
+  spawnInterval: 5
+  spawnNumber: 4
   spawnRotation: {x: 0, y: 0, z: 0}
   particleSystemPrefab: {fileID: 1784795947}
   delayAfterParticleSystem: 2.1
@@ -26873,7 +26873,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8681377643031911391}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60.54, y: 22.51, z: -289.76}
+  m_LocalPosition: {x: 29.13, y: 22.51, z: -320.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

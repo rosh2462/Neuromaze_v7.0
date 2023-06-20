@@ -1,7 +1,7 @@
 
 // using UnityEngine;
 
-// public class ObjectSpawner : MonoBehaviour
+// public class MonsterSpawner : MonoBehaviour
 // {
 //     public GameObject objectPrefab;
 //     public float spawnInterval = 10f;
@@ -53,7 +53,7 @@
 
 using UnityEngine;
 
-public class ObjectSpawner : MonoBehaviour
+public class MonsterSpawner : MonoBehaviour
 {
     public GameObject objectPrefab;
     public float spawnInterval = 10f;
