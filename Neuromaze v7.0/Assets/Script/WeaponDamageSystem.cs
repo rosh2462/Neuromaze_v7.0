@@ -71,8 +71,7 @@ Collider[] hitEnemies =  Physics.OverlapSphere(attackPoint.position,attackRange,
     
     foreach(Collider EnemyHealthSystem in hitEnemies)
     {
-        EnemyHealthSystem.GetComponent<EnemyHealthSystem>().TakeDamage(attackDamage);  
-        Debug.Log("hit");
+        EnemyHealthSystem.GetComponent<EnemyHealthSystem>().TakeDamage(attackDamage);   
     }
 
     }
