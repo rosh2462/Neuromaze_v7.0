@@ -89,7 +89,7 @@ public class PauseMenu : MonoBehaviour
     public AudioSource[] audioSources; // Array to hold multiple AudioSource components
 
     public Canvas gameCanvas;
-    public GameObject gameCanvas2;
+    //public GameObject gameCanvas2;
 
     void Update()
     {
@@ -99,13 +99,13 @@ public class PauseMenu : MonoBehaviour
             {
                 Resume();
                 gameCanvas.enabled = true;
-                gameCanvas2.SetActive(true);
+                //gameCanvas2.SetActive(true);
             }
             else
             {
                 Pause();
                 gameCanvas.enabled = false;
-                gameCanvas2.SetActive(false);
+                //gameCanvas2.SetActive(false);
             }
         }
     }
@@ -124,7 +124,7 @@ public class PauseMenu : MonoBehaviour
         }
 
         gameCanvas.enabled = true;
-        gameCanvas2.SetActive(true);
+        //gameCanvas2.SetActive(true);
     }
 
     void Pause()

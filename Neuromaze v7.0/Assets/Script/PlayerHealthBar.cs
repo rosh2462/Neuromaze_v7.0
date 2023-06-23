@@ -86,7 +86,7 @@ public class PlayerHealthBar : MonoBehaviour
     public CanvasGroup canvasGroup; // Reference to the CanvasGroup component
     bool gameIsOver = false;
     bool tookDamage = false; // Variable to track if damage was taken in the current frame
-    float fadeSpeed = 1.5f; // Speed at which the canvas fades
+    float fadeSpeed = 4f; // Speed at which the canvas fades
 
     private void Start()
     {
@@ -102,6 +102,11 @@ public class PlayerHealthBar : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F2))
         {
             TakeDamage(5);
+        }
+        
+        if (Input.GetKeyDown(KeyCode.F3))
+        {
+            IncreaseHealth(10);
         }
 
         if (currentHealth <= 0 && !gameIsOver)
