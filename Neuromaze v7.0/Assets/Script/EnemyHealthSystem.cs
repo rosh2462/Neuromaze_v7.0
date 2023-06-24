@@ -257,7 +257,7 @@ public class EnemyHealthSystem : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
-            //animator.SetTrigger("isDead");
+            animator.SetTrigger("isDead");
         }
     }
 
