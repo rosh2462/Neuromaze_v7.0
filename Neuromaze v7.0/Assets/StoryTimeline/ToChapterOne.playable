@@ -43,10 +43,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
+  - {fileID: 3712909803566938962}
   - {fileID: 9090721001785335161}
   - {fileID: 5897433449929435650}
   - {fileID: 4541248091162412092}
-  - {fileID: 3712909803566938962}
   - {fileID: 5007599421019330584}
   m_FixedDuration: 0
   m_EditorSettings:
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 7
+    m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 4937783270608892847}
     m_Duration: 11
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0
+    m_Start: 10
     m_ClipIn: 0
     m_Asset: {fileID: -578461709806228412}
     m_Duration: 7
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 17
+    m_Start: 16.88333333333339
     m_ClipIn: 0
     m_Asset: {fileID: 2739782863649903478}
     m_Duration: 2.033333333333349
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0
+    m_Start: 10
     m_ClipIn: 0
     m_Asset: {fileID: 1190833834217067713}
     m_Duration: 7
@@ -487,7 +487,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0
+    m_Start: 10
     m_ClipIn: 0
     m_Asset: {fileID: -8865094707483216456}
     m_Duration: 7
