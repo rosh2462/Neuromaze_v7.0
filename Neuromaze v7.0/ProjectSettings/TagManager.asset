@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Arms
   - Monster
+  - Wall
   layers:
   - Default
   - TransparentFX
