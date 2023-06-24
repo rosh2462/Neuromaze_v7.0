@@ -383,12 +383,16 @@ PlayableDirector:
     value: {fileID: 1475892384}
   - key: {fileID: 5577802895943450629, guid: 34d31eebdb1ef954b995fec76fb1b677, type: 2}
     value: {fileID: 266112718}
+  - key: {fileID: 2632491622494500136, guid: 34d31eebdb1ef954b995fec76fb1b677, type: 2}
+    value: {fileID: 1217969743}
   - key: {fileID: 711707858874138284, guid: 34d31eebdb1ef954b995fec76fb1b677, type: 2}
     value: {fileID: 389071717}
   - key: {fileID: 4070895556289075556, guid: 34d31eebdb1ef954b995fec76fb1b677, type: 2}
     value: {fileID: 1340578653}
-  - key: {fileID: 7476650072935229895, guid: 34d31eebdb1ef954b995fec76fb1b677, type: 2}
-    value: {fileID: 1217969743}
+  - key: {fileID: -5775082266904361623, guid: 34d31eebdb1ef954b995fec76fb1b677, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -6148014592089212837, guid: 34d31eebdb1ef954b995fec76fb1b677, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &288805333
@@ -750,7 +754,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: 
+  m_Text: "Chapter II\n\xABHOPE\xBB"
 --- !u!222 &740911988
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -771,7 +775,7 @@ GameObject:
   - component: {fileID: 1024703583}
   - component: {fileID: 1024703582}
   m_Layer: 5
-  m_Name: FourthStoryline
+  m_Name: EndingStoryline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1194,8 +1198,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.5241, y: 0}
-  m_SizeDelta: {x: 1795.0217, y: 270.8419}
+  m_AnchoredPosition: {x: -0.000030517, y: 0}
+  m_SizeDelta: {x: 1920, y: 270.8419}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1512043372
 MonoBehaviour:
@@ -1230,9 +1234,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Even if I went out after I dealt with the insides of whatever was infecting
-    the machine in my laboratory\u2019s corner. Turns out now I\u2019m really imprisoned
-    inside here.\n"
+  m_Text: Someone hears me?! Help me, I am here!
 --- !u!222 &1512043373
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1312,7 +1314,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hah...So ironic, the machine I loved so much now won't let me go...
+  m_Text: Oh, my head... some... he.. m.
 --- !u!222 &1749619288
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1401,7 +1403,7 @@ GameObject:
   - component: {fileID: 1871139367}
   - component: {fileID: 1871139366}
   m_Layer: 5
-  m_Name: FourthBackground
+  m_Name: EndingBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1420,14 +1422,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4a3f4afc12f42f24285ca6f0a975273d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1500,8 +1502,8 @@ Camera:
   m_GameObject: {fileID: 1993472262}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1584,8 +1586,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.6205, y: 0}
-  m_SizeDelta: {x: 1782.8291, y: 270.8419}
+  m_AnchoredPosition: {x: -0.000030517578, y: 0}
+  m_SizeDelta: {x: 1920, y: 270.8419}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1996697522
 MonoBehaviour:
@@ -1620,9 +1622,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Today, is so many days away from the day I\u2019ve last seen sunlight,
-    not because I was imprisoned but the sun itself hid away from the smoke in the
-    air that never settled. "
+  m_Text: ... what is going on, where am I?
 --- !u!222 &1996697523
 CanvasRenderer:
   m_ObjectHideFlags: 0
