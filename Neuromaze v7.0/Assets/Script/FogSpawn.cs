@@ -4,11 +4,14 @@ public class FogSpawn : MonoBehaviour
 {
     public GameObject particalSystem;
     private bool isObjectActive = true;
+
+    public float startTime = 0f;
+    public float intervalTime = 10f;
     
     private void Start()
     {
         // Start the timer
-        InvokeRepeating("ParticalSystem", 0f, 10f);
+        InvokeRepeating("ParticalSystem", startTime, intervalTime);
     }
     
     private void ParticalSystem()
