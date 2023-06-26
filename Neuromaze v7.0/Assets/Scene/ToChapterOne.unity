@@ -377,7 +377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1326966766
 AudioSource:
   m_ObjectHideFlags: 0
@@ -598,6 +598,8 @@ PlayableDirector:
     value: {fileID: 1818585433}
   - key: {fileID: 4541248091162412092, guid: 430d1b51e5735a64ab27209f0f80f649, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 3712909803566938962, guid: 430d1b51e5735a64ab27209f0f80f649, type: 2}
+    value: {fileID: 1326966765}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1632243788
